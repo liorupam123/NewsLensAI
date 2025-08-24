@@ -1,0 +1,137 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f7f9;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-weight: 700;
+  color: #2c3e50;
+}
+
+nav button {
+  font-size: 16px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-weight: 500;
+  color: #7f8c8d;
+  border-bottom: 3px solid transparent;
+  transition: all 0.3s ease;
+}
+
+nav button.active {
+  color: #3498db;
+  border-bottom: 3px solid #3498db;
+}
+
+.feature-container {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  flex-grow: 1;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.submit-button {
+  padding: 12px 25px;
+  font-size: 16px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:disabled {
+  background-color: #bdc3c7;
+  cursor: not-allowed;
+}
+
+.submit-button:hover:not(:disabled) {
+  background-color: #2980b9;
+}
+
+.results {
+  margin-top: 30px;
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+}
+
+.results h3 {
+  color: #2c3e50;
+}
+
+.results p {
+  line-height: 1.6;
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+.results ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.results li {
+  margin-bottom: 10px;
+}
+
+.results a {
+  text-decoration: none;
+  color: #3498db;
+  font-weight: 500;
+}
+
+.results a:hover {
+  text-decoration: underline;
+}
+
+.status-message {
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+  color: #7f8c8d;
+}
+
+.error-message {
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+  color: #e74c3c;
+  background-color: #fbecec;
+  border: 1px solid #e74c3c;
+  border-radius: 4px;
+}
