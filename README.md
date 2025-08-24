@@ -42,14 +42,6 @@ It integrates **NLP, secure authentication, real-time APIs, and modern web techn
 
 ---
 
-## 🚀 **Installation & Setup**
-
-### 1️⃣ Clone Repository
-```bash
-git clone https://github.com/liorupam123/NewsLensAI.git
-cd NewsLensAI
-
-
 📚 Future Enhancements
 
 🌍 Deploy with Docker + Kubernetes
