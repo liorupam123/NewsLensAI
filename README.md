@@ -45,15 +45,21 @@ It integrates **NLP, secure authentication, real-time APIs, and modern web techn
 📚 Future Enhancements
 
 🌍 Deploy with Docker + Kubernetes
+
 📱 Mobile app (React Native/Flutter)
+
 🤖 Add sentiment analysis & stance detection
+
 🌐 Multi-lingual support with Hugging Face models
+
 
 
 👨‍💻 Author
 
 Rupam Pakhira – 24CS60R58
+
 📍 Department of Computer Science and Engineering
+
 📍 Indian Institute of Technology, Kharagpur
 
 
