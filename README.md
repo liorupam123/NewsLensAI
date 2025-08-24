@@ -24,7 +24,7 @@ It integrates **NLP, secure authentication, real-time APIs, and modern web techn
 - 📈 **Interactive Dashboard** – Built with **React + Chart.js**, showing summaries, top articles, and classification doughnut charts.  
 
 ---
-
+## 🏗️ **Architecture**
 
 - **Frontend**: React (App, TopicAnalysis, ArticleSummarizer, Dashboard) + CSS UI  
 - **Backend API Gateway**: Node.js/Express (Auth, JWT, Request Forwarding)  
@@ -62,6 +62,4 @@ Rupam Pakhira – 24CS60R58
 
 📍 Indian Institute of Technology, Kharagpur
 
-
-## 🏗️ **Architecture**
 
